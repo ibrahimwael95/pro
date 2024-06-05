@@ -1,0 +1,643 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+     background-color: #6ee4d0;
+     background-attachment: fixed;
+     background-image:  url(  ss/wallpaperflare.com_wallpaper\ \(2\).jpg)  ;
+   background-repeat: no-repeat;
+   background-size: cover;
+     background-position: center; 
+    color: white;
+   cursor: default;
+   
+    }
+   .logo{
+      letter-spacing: 4px;
+      font-weight: 800;
+      cursor: default;
+   user-select: none;
+   }
+    
+  
+    .one{
+      position: relative;
+      right: 3px;
+      top: 2px;
+    }
+  
+    .naver button {
+      margin-left: 10px;
+      padding: 10px;
+      border-radius: 20px;
+      border: solid white 1px;
+      font-size: 15px;
+      letter-spacing: 4px;
+      background-color:  transparent;
+   
+      color: white;
+      transition:  0.5s ease-in-out;
+  
+    }
+   
+    
+  
+  /* header */
+   
+  
+  header{
+      position:relative;
+      left: 0;
+      top: 0; 
+      width: 100%;
+      
+     
+      display: flex;
+   justify-content: space-between;
+      align-items: center;
+      z-index: 99;
+  
+  }
+  .naver{
+    position: relative;
+    right: 0px;
+    display:  inline-block;
+   
+  }
+  
+  
+  /* ---------------main-------------------- */
+   
+  
+  
+  
+  main .aboutme{
+   position: relative;
+  left: 15%;
+   text-align:  center;
+    border:1px solid rgb(255, 255, 255)  ;
+    border-radius:20px ;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(5px);
+   margin: 10px;
+    cursor: default; 
+     height: 200px;
+   
+     width: 70%;
+  }
+  
+   .aboutme .abor{
+    display: inline  ;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-bottom: rgb(255, 255, 255) 3px solid;
+    transition: 0.5s ease-in-out;
+    background-color:  rgba(255, 255, 255, 0);
+     cursor: default;
+     border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  
+  .aboutme .about{
+    font-size: 20px;
+     cursor: default;
+     text-align: left;
+     width: 75%;
+     position: fixed;
+     margin-top:15px ;
+  }
+  .aboutme img{
+    text-align: right;
+    width: 117px;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    border: white solid 1px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 10px white;
+  }
+   
+   
+  
+  
+  
+  
+  
+  
+   /*------------------- why me -------------------*/
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   main{
+    text-align: center;
+  }
+    .h1me{
+    display: inline  ;
+    font-weight: 800;
+    letter-spacing: 4px;
+    border-bottom: rgb(255, 255, 255) 3px solid;
+    transition: 0.5s ease-in-out;
+    background-color:  rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    padding: 5px;
+  }
+   
+  
+  .whyme {
+    position: relative;
+  left: 10%;
+    width: 80%;
+  
+    
+  }
+  .whyme ul li {
+    text-align: left;
+    width: 70%;
+  text-decoration: none;
+  list-style:disc;
+  font-size:  25px;
+  margin-top: 15px;
+  }
+  .whyme ul li p{
+    font-size: 14px;
+  }
+   
+  .whyme .img{
+    background-image: url(ss/Screenshot\ 2024-04-15\ 150438.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    width: 30%;
+    height:  100%;
+   position: absolute;
+   left: 70%;
+  border-radius: 20px;
+  box-shadow: 2px 1px 30px rgb(255, 255, 255);
+  margin-left: 5px;
+  transition: 0.9s ease-in-out;
+  }
+    
+  
+    /* ============weeeeeeebs ===============*/
+    
+  
+  
+  
+  
+  
+  
+  
+  .webs{
+   
+    align-items: center;
+   
+  }
+   
+   
+    .webs h1{
+      display: inline  ;
+      font-weight: 800;
+      letter-spacing: 4px;
+      border-bottom: rgb(255, 255, 255) 3px solid;
+      transition: 0.5s ease-in-out;
+      background-color:  rgba(255, 255, 255, 0);
+      border-radius: 20px;
+      padding: 5px;
+    }
+     
+   
+  
+    .webs div{
+      width: 70%;
+      height: 300px;
+      border: 1px solid white;
+      border-radius: 20px ;
+  margin-top: 15px;
+   margin-left: 15%;
+    }
+  
+    
+  /* 
+    .webs.service{
+      width: 100%;
+      padding:70px 0 ;
+      background-color:#a00404 ;
+    }
+   
+    .webs .service-box{
+      width:  60%;
+      height: 40%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-left: auto;
+  }
+  .webs .single-service{
+      flex-basis: 48%;
+      text-align: center;
+      border-radius: 7px;
+      margin-bottom: 20px;
+      color: #fff;
+      position: relative;
+  }
+  .webs .single-service img{
+      width: 100%;
+      border-radius:7px;
+  }
+  .webs .over-lay{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      right: 0px; 
+      top: -15px;
+  border-radius: 7px;
+  background:linear-gradient(rgba(255, 255, 255, 0),rgb(7, 136, 119));
+  transition: 1s;
+  opacity: 0;
+  }
+  .single-service:hover .over-lay{
+       opacity: 1;
+  }
+  .service-desc{
+      width: 80%;
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: 0.5s;
+  }
+  hr{
+      background: #fff;
+      height: 2px;
+      border:0 ;
+      margin-top:15px;
+      margin-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+  
+  }
+  .single-service:hover .service-desc{
+      opacity: 1;
+      bottom: 40%;
+  }
+  .service-desc p{
+      font-size: 14px;
+  }
+  
+  
+  
+  
+   */
+  
+  /* 
+  
+  
+  @media screen and (max-width:770px) {
+     .single-service{
+      flex-basis: 100%;
+    margin-bottom: 30px;
+     }
+     .service-desc p{
+      font-size: 12px;
+     }
+     hr{
+      margin: 5px auto;
+     }
+     .single-service:hover .service-desc{
+  
+      bottom: 25% !important;
+  }
+      }
+    */
+  
+  
+  
+  
+  
+    /* ________________footer____________ */
+    
+    
+    
+    
+    
+    
+    
+    
+    .svg svg{
+      padding: 0px;
+      margin: 0px;
+    }
+     svg{
+       z-index: -22;
+       position: relative;
+       top: 4.7px;
+     width:100% ;
+      color: rgb(180, 222, 255);
+   
+     }
+    footer{
+      text-align: center;
+      align-items: center;
+      height: 400px;
+    margin: 0px ;
+    padding: 0px;
+  
+    
+  
+      background-image: linear-gradient(to bottom , rgba(137, 118, 175, 1) , rgba(169, 161, 161, 0.9)) ;
+    }
+    footer .with{
+      display: inline  ;
+      font-weight: 800;
+      letter-spacing: 4px;
+      border-bottom: rgb(0, 0, 0) 3px solid;
+      transition: 0.5s ease-in-out;
+      color: #000000;
+      border-radius: 20px;
+      padding: 5px;
+    }
+    
+    footer div{
+      margin:20px 45% ;
+      width:  86px;
+      color: #000000;
+      border: rgb(0, 0, 0) solid 1px;
+      border-radius: 20px;
+   
+      text-align: center;
+   
+     
+      background-color:  rgba(255, 255, 255, 0);
+      
+      font-weight: 800;
+      letter-spacing: 4px;
+      padding: 10px;
+   transition: 0.5s ease-in-out;
+    }
+  
+    
+    footer .what{
+      box-shadow: 1px 1px 10px rgb(0, 0, 0);
+      border:  none;
+       color: #000000;
+    }
+   
+    footer .linked{
+      box-shadow: 1px 1px 10px rgb(0, 0, 0);
+      border:  none;
+      color: rgb(0, 0, 0);
+    }
+    
+    footer .email{
+        border:  none;
+    box-shadow: 1px 1px 10px ;
+    }
+   
+  
+  
+    
+  
+  /* ---------------view------------------------ */
+  
+  @media screen and (min-width:900px) {
+  
+  
+    .naver button:hover{
+      background-color: white;
+      box-shadow: 1px 1px 100px #ffffff;
+      color: #000000;
+    }
+  
+    .whyme:hover .img{
+      background-image: url(ss/giphy.gif);
+      
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    .aboutme .abor:hover{
+      box-shadow: 1px 1px 50px #ffffff;
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+      cursor: default;
+    
+    }
+    
+    .aboutme:hover .abor{
+      box-shadow: 1px 1px 50px #ffffff;
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+      cursor: default;
+    }
+  
+  
+    .h1me:hover{
+      box-shadow: 1px 1px 30px #ffffff;
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+    }
+    
+  
+    .webs h1:hover{
+      box-shadow: 1px 1px 50px #ffffff;
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+     
+    }
+    .whyme:hover .h1me{
+      box-shadow: 1px 1px 30px #ffffff;
+      background-color: white;
+      color: black;
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+    
+    }
+  
+  
+  
+  
+    .webs:hover h1{
+      box-shadow: 1px 1px 50px #ffffff;
+      background-color: white;
+      color: rgb(0, 0, 0);
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+    }
+  
+  
+    footer .with:hover{
+      box-shadow: 1px 1px 50px #000000;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+      
+     
+    }
+  
+  
+    footer:hover .with{
+      box-shadow: 1px 1px 50px #000000;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+      padding: 5px;
+    }
+  
+    footer div:hover{
+      box-shadow: 1px 1px 100px #ffffff;
+      background-color: rgb(249, 249, 249);
+      color: rgb(0, 0, 0);
+      border-radius: 20px;
+      border-bottom: #000000 solid  2px;
+  
+    }
+  
+    footer .what:hover{
+      color: white;
+       background-color:  rgb(0, 216, 0);
+       border-bottom: none;
+       box-shadow: 1px 1px 40px  rgb(0, 216, 0);
+     }
+  
+  
+     footer .linked:hover{
+      border-bottom: none;
+      background-color:   rgb(0, 0, 255);
+      box-shadow: 1px 1px 40px   blue;
+      color: rgb(255, 255, 255);
+    }
+  
+    footer .email:hover{
+      box-shadow: 1px 1px 25px white;
+    }
+  }
+  
+  
+  /* ----------------------------- */
+  
+  @media screen and (min-width:200px)  and (max-width:900px) {
+   
+    main .aboutme{
+      height: 330px;
+   width: 94%;
+     position: relative;
+     left: 0px;
+     padding: 10px;
+     text-align: left;
+  
+    }
+    .aboutme img{
+      text-align: right;
+      width: auto;
+      height: 240px;
+      position: absolute;
+      right: 20px;
+      top: 50px;
+  
+    }
+    
+    .aboutme .about{
+      font-size: 20px;
+       cursor: default;
+       text-align: left;
+       width: 60%;
+       position: fixed;
+    }
+    .aboutme .abor{
+      border-bottom: rgb(255, 255, 255) 2px solid;
+    }
+    
+  
+  
+    .webs div{
+      width: 96%;
+      height: 300px;
+      border: 1px solid white;
+      border-radius: 20px ;
+  margin-top: 15px;
+   margin-left: 10px;
+    }
+   
+    footer div{
+      margin:20px 40% ;
+  
+      padding: 12px;
+    }
+   
+   
+   
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   /* view-tableet */
+   
+  
+  @media screen and (min-width:601px)  and (max-width:900px) {
+    
+    main .aboutme{
+      height: 230px;
+    }
+    .aboutme img{
+      text-align: right;
+      width: auto;
+      height: 190px;
+      position: absolute;
+      right: 20px;
+      top: 35px;
+  
+    }
+  
+    .aboutme .about{
+      font-size: 20px;
+       cursor: default;
+       text-align: left;
+       width: 74%;
+       position: fixed;
+    }
+    .aboutme .abor{
+      border-bottom: rgb(255, 255, 255) 2px solid;
+    }
+   
+  
+   }
