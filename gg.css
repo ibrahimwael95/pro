@@ -1,23 +1,24 @@
 *{
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth; 
+    font-family: 'Poppins', sans-serif;
   }
   body{
-     background-color: #6ee4d0;
-     background-attachment: fixed;
-     background-image:  url(  ss/wallpaperflare.com_wallpaper\ \(2\).jpg)  ;
-   background-repeat: no-repeat;
-   background-size: cover;
-     background-position: center; 
+      
+    
+   
     color: white;
    cursor: default;
    
+    
     }
    .logo{
       letter-spacing: 4px;
       font-weight: 800;
       cursor: default;
    user-select: none;
+   margin: 20px;
    }
     
   
@@ -25,6 +26,11 @@
       position: relative;
       right: 3px;
       top: 2px;
+    }
+    .one a{
+      text-decoration: none;
+      color: white;
+  
     }
   
     .naver button {
@@ -35,9 +41,9 @@
       font-size: 15px;
       letter-spacing: 4px;
       background-color:  transparent;
-   
+      margin: 20px;
       color: white;
-      transition:  0.5s ease-in-out;
+      transition:  0.2s ease-in-out;
   
     }
    
@@ -47,7 +53,7 @@
    
   
   header{
-      position:relative;
+      position:absolute;
       left: 0;
       top: 0; 
       width: 100%;
@@ -62,582 +68,280 @@
   .naver{
     position: relative;
     right: 0px;
-    display:  inline-block;
-   
-  }
+    display:  inline-block;}
+  
+   .naver  button:hover {
+      background-color: white;
+      box-shadow: 1px 1px 100px #ffffff;
+      color: #000000;
+      transform: scale(1.1);
+  
+    }
+    .naver  button:hover a{
+      color: #000000;
+    } 
+  
   
   
   /* ---------------main-------------------- */
-   
+    
+    
   
-  
-  
-  main .aboutme{
-   position: relative;
-  left: 15%;
-   text-align:  center;
-    border:1px solid rgb(255, 255, 255)  ;
-    border-radius:20px ;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0);
-    backdrop-filter: blur(5px);
-   margin: 10px;
-    cursor: default; 
-     height: 200px;
-   
-     width: 70%;
-  }
-  
-   .aboutme .abor{
-    display: inline  ;
-    font-weight: 800;
-    letter-spacing: 4px;
-    border-bottom: rgb(255, 255, 255) 3px solid;
-    transition: 0.5s ease-in-out;
-    background-color:  rgba(255, 255, 255, 0);
-     cursor: default;
-     border-radius: 20px;
-    padding: 5px;
-    margin: 10px;
-  }
-  
-  
-  .aboutme .about{
-    font-size: 20px;
-     cursor: default;
-     text-align: left;
-     width: 75%;
-     position: fixed;
-     margin-top:15px ;
-  }
-  .aboutme img{
-    text-align: right;
-    width: 117px;
-    height: auto;
-    position: absolute;
-    right: 30px;
-    border: white solid 1px;
-    border-radius: 20px;
-    margin-bottom: 5px;
-    box-shadow: 1px 1px 10px white;
-  }
+    .main .abor:hover h1 {
+      background-color: white;
+      color: black;
+   transform: scale(1.1em);
+      box-shadow: 3px 1px 10px  white;
    
    
+    }
+    .main .abor:hover p{
+       
+      transform: scale(1.1em);
+    }
+    .main .img:hover img{
+       
+   left:57% ;
+   
+    }
+    .main .img:hover .cube {
+      left: 66%;
+      top: 32%;
+    }
+    
+  
+   
+    .main{
+      margin-top: -35px;
+   
+      background-image: url(img/pexels-felixmittermeier-956999.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+     background-position: center; 
+   
+   
+    width: 100%;
+    height: 100vh;
+    }
+  .main .me{
+    width: 50%;
+    height: 400px;
+    
+  }
+   
+  .main .me .cube {
+    position:  absolute;
+    top: 35%;
+    left: 64%;
+    display: block;  
+    width: 350px; 
+    height: 350px;
+    line-height: 50px;  
+    border-radius: 50%;  
+    text-align: center;  
+    background-color: rgb(255, 255, 255);  
+    color: #fff;  
+    transition: 0.4s ease-in-out;
+  }
+    .main .abolo{
+      width: 530px;
+      position: absolute;
+      left: 58%;
+      top:10% ;
+      border-radius: 50%;  
+      object-fit: cover;
+      display: inline-block;
+   margin: 30px;
+      transition: 0.4s ease-in-out;
+    }
+    .main h1{
+      padding: 3px;
+      display: inline-block;
+      font-size: 40px;
+      position: absolute;
+      left: 9%;
+       top: 300px;
+       border-left: 1px white solid;
+       border-bottom: 1px white solid;
+       border-bottom-left-radius: 10px;
+       transition: 0.4s ease-in-out;
+    }
+     .main p{
+      display: inline-block;
+      position: absolute;
+      left: 9%;
+       top: 360px;
+       width: 400px;
+       font-size: 20px;
+       transition: 0.4s ease-in-out;
+    }
+    
   
   
   
-  
-  
-  
-   /*------------------- why me -------------------*/
-  
-  
-  
-  
-  
-  
+   
+    /* ============weeeeeeebs ===============*/
+   
   
   
   
   
    main{
     text-align: center;
-  }
-    .h1me{
-    display: inline  ;
-    font-weight: 800;
-    letter-spacing: 4px;
-    border-bottom: rgb(255, 255, 255) 3px solid;
-    transition: 0.5s ease-in-out;
-    background-color:  rgba(255, 255, 255, 0);
-    border-radius: 20px;
-    padding: 5px;
-  }
    
-  
-  .whyme {
-    position: relative;
-  left: 10%;
-    width: 80%;
-  
-    
   }
-  .whyme ul li {
-    text-align: left;
-    width: 70%;
-  text-decoration: none;
-  list-style:disc;
-  font-size:  25px;
-  margin-top: 15px;
-  }
-  .whyme ul li p{
-    font-size: 14px;
-  }
-   
-  .whyme .img{
-    background-image: url(ss/Screenshot\ 2024-04-15\ 150438.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   
-    width: 30%;
-    height:  100%;
-   position: absolute;
-   left: 70%;
-  border-radius: 20px;
-  box-shadow: 2px 1px 30px rgb(255, 255, 255);
-  margin-left: 5px;
-  transition: 0.9s ease-in-out;
-  }
-    
-  
-    /* ============weeeeeeebs ===============*/
-    
-  
-  
-  
-  
-  
-  
+   main svg{
+    z-index: 2;
+    position: absolute;
+    top: 100%;
+    left: 0;
+   } 
   
   .webs{
+   z-index:  3;
+    padding: 50px;
+   color: #000000; 
    
-    align-items: center;
-   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
   }
    
    
-    .webs h1{
+     .webs-h1{
       display: inline  ;
       font-weight: 800;
       letter-spacing: 4px;
-      border-bottom: rgb(255, 255, 255) 3px solid;
-      transition: 0.5s ease-in-out;
-      background-color:  rgba(255, 255, 255, 0);
-      border-radius: 20px;
-      padding: 5px;
-    }
+      border-bottom: black 1px solid;
+      border-left:black 1px solid ;
+      transition: 0.2s ease-in-out;
      
-   
+      border-bottom-left-radius: 20px;
+      padding: 5px;
+      margin-top: 20px;
+      color: #000000;
   
-    .webs div{
-      width: 70%;
+    }
+    .webs a{
+      text-decoration: none;
+      color: #000000;
+    }
+    
+   .webs .pro{
+      width: 300px;
       height: 300px;
-      border: 1px solid white;
+     
       border-radius: 20px ;
-  margin-top: 15px;
-   margin-left: 15%;
+      margin-top: 50px;
+      margin-left: 20px;
+      box-shadow: 7px 6px 5px rgb(185, 185, 185);
+      transition: 0.3s ease-in-out;
     }
-  
+    .webs .pro .img img{
     
-  /* 
-    .webs.service{
-      width: 100%;
-      padding:70px 0 ;
-      background-color:#a00404 ;
+      border-radius: 20px ;
+      width: 280px;
+      height: 200px;
+      margin-top: 5px;
+      margin-left:5px;
+      
     }
    
-    .webs .service-box{
-      width:  60%;
-      height: 40%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      margin-left: auto;
-  }
-  .webs .single-service{
-      flex-basis: 48%;
-      text-align: center;
-      border-radius: 7px;
-      margin-bottom: 20px;
-      color: #fff;
-      position: relative;
-  }
-  .webs .single-service img{
-      width: 100%;
-      border-radius:7px;
-  }
-  .webs .over-lay{
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      right: 0px; 
-      top: -15px;
-  border-radius: 7px;
-  background:linear-gradient(rgba(255, 255, 255, 0),rgb(7, 136, 119));
-  transition: 1s;
-  opacity: 0;
-  }
-  .single-service:hover .over-lay{
-       opacity: 1;
-  }
-  .service-desc{
-      width: 80%;
-      position: absolute;
-      bottom: 0%;
-      left: 50%;
-      transform: translateX(-50%);
-      opacity: 0;
-      transition: 0.5s;
-  }
-  hr{
-      background: #fff;
-      height: 2px;
-      border:0 ;
-      margin-top:15px;
-      margin-bottom: 15px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 60%;
-  
-  }
-  .single-service:hover .service-desc{
-      opacity: 1;
-      bottom: 40%;
-  }
-  .service-desc p{
-      font-size: 14px;
-  }
-  
-  
-  
-  
-   */
-  
-  /* 
-  
-  
-  @media screen and (max-width:770px) {
-     .single-service{
-      flex-basis: 100%;
-    margin-bottom: 30px;
-     }
-     .service-desc p{
-      font-size: 12px;
-     }
-     hr{
-      margin: 5px auto;
-     }
-     .single-service:hover .service-desc{
-  
-      bottom: 25% !important;
-  }
+    .webs .pro p{
+      font-size: 17px;
+      text-align: start;
+      margin: 5px;
       }
-    */
   
+      .webs .pro:hover{
+        transform: scale(0.95);
+        box-shadow:none;
+        
+      }
+  /* ----------------------------- */
   
-  
-  
-  
-    /* ________________footer____________ */
-    
-    
-    
-    
-    
-    
-    
-    
-    .svg svg{
-      padding: 0px;
-      margin: 0px;
-    }
-     svg{
-       z-index: -22;
-       position: relative;
-       top: 4.7px;
-     width:100% ;
-      color: rgb(180, 222, 255);
    
-     }
+    /* ________________footer____________ */
     footer{
-      text-align: center;
-      align-items: center;
-      height: 400px;
-    margin: 0px ;
-    padding: 0px;
-  
-    
-  
-      background-image: linear-gradient(to bottom , rgba(137, 118, 175, 1) , rgba(169, 161, 161, 0.9)) ;
+       color: black ;
+       background-color: rgb(255, 255, 255);
+       text-align: center;
+       padding: 20px; 
     }
     footer .with{
       display: inline  ;
       font-weight: 800;
       letter-spacing: 4px;
-      border-bottom: rgb(0, 0, 0) 3px solid;
-      transition: 0.5s ease-in-out;
-      color: #000000;
-      border-radius: 20px;
-      padding: 5px;
-    }
-    
-    footer div{
-      margin:20px 45% ;
-      width:  86px;
-      color: #000000;
-      border: rgb(0, 0, 0) solid 1px;
-      border-radius: 20px;
-   
-      text-align: center;
-   
+      border-bottom: rgb(0, 0, 0) 1px solid;
+      border-left:rgb(0, 0, 0) 1px solid ;
+      transition: 0.2s ease-in-out;
      
-      background-color:  rgba(255, 255, 255, 0);
+      border-bottom-left-radius: 20px;
+      padding: 5px;
+      margin-top: 20px;
+   
+    }
+    footer .border-contect{
+      display: flex;
+      align-items: center;
+      justify-content:  center;
+      margin-top: 20px;
       
-      font-weight: 800;
-      letter-spacing: 4px;
-      padding: 10px;
-   transition: 0.5s ease-in-out;
-    }
-  
-    
-    footer .what{
-      box-shadow: 1px 1px 10px rgb(0, 0, 0);
-      border:  none;
-       color: #000000;
-    }
    
-    footer .linked{
-      box-shadow: 1px 1px 10px rgb(0, 0, 0);
-      border:  none;
-      color: rgb(0, 0, 0);
     }
     
-    footer .email{
-        border:  none;
-    box-shadow: 1px 1px 10px ;
+    footer .conect{
+     
+      color: #000000;
+      margin: 30px;
+   transition: 0.2s ease-in-out;
     }
-   
-  
-  
-    
-  
-  /* ---------------view------------------------ */
-  
-  @media screen and (min-width:900px) {
-  
-  
-    .naver button:hover{
-      background-color: white;
-      box-shadow: 1px 1px 100px #ffffff;
+    footer .conect  h1{
+      float: inline-end;
+      
+    }
+    footer .conect  a{
+      text-decoration: none;
       color: #000000;
     }
+    footer .conect  a img{
+   width: 50px;
+    } 
+    footer .conect:hover{
+      transform: scale(1.1);
+      box-shadow:4px 4px 7px #ffffff;
+    }
   
-    .whyme:hover .img{
-      background-image: url(ss/giphy.gif);
+   
+   
+  /* ----------------------------- */
+  @media (max-width:1023px){
+    
+    .naver button {
+      font-size: 45px;
+    }
+    
+    header{
       
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-  
-    .aboutme .abor:hover{
-      box-shadow: 1px 1px 50px #ffffff;
-      background-color: white;
-      color: black;
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
-      cursor: default;
-    
-    }
-    
-    .aboutme:hover .abor{
-      box-shadow: 1px 1px 50px #ffffff;
-      background-color: white;
-      color: black;
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
-      cursor: default;
-    }
-  
-  
-    .h1me:hover{
-      box-shadow: 1px 1px 30px #ffffff;
-      background-color: white;
-      color: black;
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
-    }
-    
-  
-    .webs h1:hover{
-      box-shadow: 1px 1px 50px #ffffff;
-      background-color: white;
-      color: rgb(0, 0, 0);
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
+      top: 30px; 
      
-    }
-    .whyme:hover .h1me{
-      box-shadow: 1px 1px 30px #ffffff;
-      background-color: white;
-      color: black;
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
-    
-    }
-  
-  
-  
-  
-    .webs:hover h1{
-      box-shadow: 1px 1px 50px #ffffff;
-      background-color: white;
-      color: rgb(0, 0, 0);
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
-    }
-  
-  
-    footer .with:hover{
-      box-shadow: 1px 1px 50px #000000;
-      background-color: rgb(0, 0, 0);
-      color: rgb(255, 255, 255);
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
       
-     
-    }
+  } 
+    .main .img{
+    display: none;
+   }
+   .main .abor h1{
+    font-size: 145px;
+  top: 20%;
+   }
+   .main .abor p{
+    font-size: 50px;
+    width: 80%;
+    top: 40%;
+   }
   
-  
-    footer:hover .with{
-      box-shadow: 1px 1px 50px #000000;
-      background-color: rgb(0, 0, 0);
-      color: rgb(255, 255, 255);
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-      padding: 5px;
-    }
-  
-    footer div:hover{
-      box-shadow: 1px 1px 100px #ffffff;
-      background-color: rgb(249, 249, 249);
-      color: rgb(0, 0, 0);
-      border-radius: 20px;
-      border-bottom: #000000 solid  2px;
-  
-    }
-  
-    footer .what:hover{
-      color: white;
-       background-color:  rgb(0, 216, 0);
-       border-bottom: none;
-       box-shadow: 1px 1px 40px  rgb(0, 216, 0);
-     }
-  
-  
-     footer .linked:hover{
-      border-bottom: none;
-      background-color:   rgb(0, 0, 255);
-      box-shadow: 1px 1px 40px   blue;
-      color: rgb(255, 255, 255);
-    }
-  
-    footer .email:hover{
-      box-shadow: 1px 1px 25px white;
-    }
   }
   
-  
-  /* ----------------------------- */
-  
-  @media screen and (min-width:200px)  and (max-width:900px) {
-   
-    main .aboutme{
-      height: 330px;
-   width: 94%;
-     position: relative;
-     left: 0px;
-     padding: 10px;
-     text-align: left;
-  
-    }
-    .aboutme img{
-      text-align: right;
-      width: auto;
-      height: 240px;
-      position: absolute;
-      right: 20px;
-      top: 50px;
-  
-    }
     
-    .aboutme .about{
-      font-size: 20px;
-       cursor: default;
-       text-align: left;
-       width: 60%;
-       position: fixed;
-    }
-    .aboutme .abor{
-      border-bottom: rgb(255, 255, 255) 2px solid;
-    }
-    
-  
-  
-    .webs div{
-      width: 96%;
-      height: 300px;
-      border: 1px solid white;
-      border-radius: 20px ;
-  margin-top: 15px;
-   margin-left: 10px;
-    }
-   
-    footer div{
-      margin:20px 40% ;
-  
-      padding: 12px;
-    }
-   
-   
-   
-   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-   /* view-tableet */
-   
-  
-  @media screen and (min-width:601px)  and (max-width:900px) {
-    
-    main .aboutme{
-      height: 230px;
-    }
-    .aboutme img{
-      text-align: right;
-      width: auto;
-      height: 190px;
-      position: absolute;
-      right: 20px;
-      top: 35px;
-  
-    }
-  
-    .aboutme .about{
-      font-size: 20px;
-       cursor: default;
-       text-align: left;
-       width: 74%;
-       position: fixed;
-    }
-    .aboutme .abor{
-      border-bottom: rgb(255, 255, 255) 2px solid;
-    }
-   
-  
-   }
