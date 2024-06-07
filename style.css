@@ -326,6 +326,9 @@ header{
   header{
     top: 30px; 
 } 
+.main{
+  width: 100%;
+}
 
   .main .img{
   display: none;
@@ -344,7 +347,9 @@ border-radius: 60px;
  }
 
  .webs-h1{
-  font-size: 55px;
+  font-size: 75px;
+  font-weight: 500;
+ 
  }
 
  .webs .pro {
@@ -384,7 +389,8 @@ top: 20px;
 }
 
 footer .with{
-  font-size: 55px;
+  font-size: 75px;
+  font-weight: 500;
 }
 
 footer .conect{
@@ -392,6 +398,45 @@ footer .conect{
   margin: 33px;
 
 }
+
+
+ footer{
+  color: black ;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px; 
+}
+
+
+footer .border-contect{
+ display:    block  ;
+ 
+  
+  text-align:center  ;
+  
+}
+footer .conect a{
+  display: block;
+  width: 50%;
+  height:  20%;
+  margin: 50px auto;
+  /* border: #000000 1px solid; */
+  box-shadow: 7px 6px 5px rgb(185, 185, 185);
+  border-radius: 50px;
+font-size: 26px;
+padding: 10px;
+font-weight: 500;
+}
+ 
+footer .conect a h1{
+  float: none;
+  display: inline-block;
+  font-weight: 500;
+}
+footer .conect a img{
+  width: 70px;
+}
+
  
 
 }
